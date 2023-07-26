@@ -46,15 +46,20 @@ h3 {
     text-align: center;
     font-variant: small-caps;
 }
+.drink-image {
+    width: 50%;
+}
 .drink-image img {
     max-width: 200px;
     border-radius: 7px;
+    display: block;
+    margin: .5rem;
 }
 h4.instructions {
-    margin: 20px .25rem 0;
+    margin: 20px .75rem 0;
 }
 p.instructions {
-    margin: .25rem;
+    margin: .75rem;
 }
 ul {
     padding-left: 25px;
