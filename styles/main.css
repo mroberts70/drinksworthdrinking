@@ -54,6 +54,10 @@ article div div {
     display: flex;
     gap: 15px;
 }
+.drinkdeets {
+    display: flex;
+    flex-direction: row;
+}
 .drink-image {
     width: 50%;
 }
@@ -97,4 +101,20 @@ footer p {
     h3 {
         font-size: 2rem;
     }
+    .drinkdeets {
+        display: flex;
+        flex-direction: column;
+    }
+    .drink-image {
+        width: 100%;
+    }
+    .drink-image img {
+        max-width: 100%;
+        border-radius: 0;
+        display: block;
+        margin: 0;
+    }
+    .ingredients {
+        width: 100%;
+    }    
 }
